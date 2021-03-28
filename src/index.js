@@ -1,3 +1,4 @@
+import dishesListTpl from "../templates/listItems.hbs"
 import dishes from './menu.json';
 // import f from "./templates"
 
@@ -9,6 +10,7 @@ const Theme = {
 const themeSwitcher = document.getElementById("theme-switch-toggle");
 const currentTheme = localStorage.getItem("theme");
 const bodyEl = document.querySelector("body");
+const menu = document.querySelector("ul.menu.js-menu");
 
 if (!currentTheme) {
     localStorage.setItem("theme", Theme.LIGHT)
@@ -30,4 +32,4 @@ function onThemeSwitcherChange() {
     bodyEl.classList.toggle(Theme.DARK);
 };
 
-// console.log(f)
+menu.innerHTML = dishesListTpl({ dishes });
