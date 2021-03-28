@@ -1,4 +1,4 @@
-import dishesListTpl from "../templates/listItems.hbs"
+import dishesListTpl from "./templates/listItems.hbs"
 import dishes from './menu.json';
 // import f from "./templates"
 
