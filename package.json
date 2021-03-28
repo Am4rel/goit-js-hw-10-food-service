@@ -1,0 +1,26 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Am4rel/goit-js-hw-10-food-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Am4rel/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://github.com/Am4rel/goit-js-hw-10-food-service#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars": "^0.4.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
